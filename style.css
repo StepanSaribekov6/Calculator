@@ -1,0 +1,68 @@
+*{
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: cyan;
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 3px;
+    max-width: 60%;
+}
+
+input{
+    background-color: beige;
+    border: 1px black solid;
+    width: 30%;
+}
+
+select{
+    background-color: beige;
+    border: 1px black solid;
+    width: 30%;
+}
+
+textarea{
+    width: 40%;
+    background-color: beige;
+    border: 1px black solid;
+}
+
+button{
+    background-color: seagreen;
+    width: 20%;
+    border-radius: 30px;
+    border: 1px black solid;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 2px black solid;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.card{
+    border: 1px white solid;
+    max-width: 40%;
+    font-size: small;
+    margin: 5px;
+}
+
+.card.income {
+    border-left: 5px solid green;
+    background-color: white solid;
+}
+
+.card.expense {
+    border-left: 5px solid red;
+    background-color: white solid;
+}
